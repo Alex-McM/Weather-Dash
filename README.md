@@ -2,6 +2,8 @@
 
 # Criteria
 
+![Weather shot](https://user-images.githubusercontent.com/69844105/103523694-60da1080-4ed0-11eb-8172-5464743905cf.png)
+
 ```
 GIVEN a weather dashboard with form inputs
 WHEN I search for a city
@@ -16,8 +18,5 @@ WHEN I click on a city in the search history
 THEN I am again presented with current and future conditions for that city
 
 
-![Weather shot](https://user-images.githubusercontent.com/69844105/103522868-199f5000-4ecf-11eb-93e7-8667ecd5a434.png)
 
 
-# Issues
-Having trouble displaying tempreature in main section. Will continue to fix at later date.
