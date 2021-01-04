@@ -117,3 +117,12 @@ function addToList(c){
     $(listEl).attr("data-value",c.toUpperCase());
     $(".list-group").append(listEl);
 }
+
+function invokePastSearch(event){
+    var liEl=event.target;
+    if (event.target.matches("li")){
+        city=liEl.textContent.trim();
+        currentWeather(city);
+    }
+
+}
