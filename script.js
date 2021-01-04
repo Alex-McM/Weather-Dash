@@ -140,3 +140,11 @@ function loadlastCity(){
     }
 
 }
+
+function clearHistory(event){
+    event.preventDefault();
+    sCity=[];
+    localStorage.removeItem("cityname");
+    document.location.reload();
+
+}
